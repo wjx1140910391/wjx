@@ -1,4 +1,4 @@
-pring:
+spring:
   profiles:
     active:
       - dev
@@ -36,3 +36,5 @@ eureka:
     fetch-registry: false   #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
     service-url:
       defaultZone: http://localhost:7002/eureka/   #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址。
+---
+
